@@ -1,0 +1,4 @@
+function keyDownHandler(e) {
+    if (e.key === "ArrowRight") {
+        player.x += player.speed;
+    } else if (e.key === "ArrowLeft") {
